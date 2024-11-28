@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Integer Input Form</title>
-</head>
+<html>
 <body>
-    <h1>Enter a List of Integers</h1>
-    <form action="process.php" method="post">
-        <label for="integers">Input integers</label><br>
-        <input type="text" id="integers" name="integers" placeholder="e.g., 1,2,3,4" required><br><br>
-        <button type="submit">Submit</button>
+    <h1>Assignment 6 - User Input Form</h1>
+    <form method="GET" action="process.php">
+        <label for="numbers">Enter integers separated by commas: </label>
+        <input type="text" id="numbers" name="numbers" placeholder="e.g., 3,5,7,9" required><br><br>
+        <label for="threshold">Enter threshold: </label>
+        <input type="number" id="threshold" name="threshold" required><br><br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
