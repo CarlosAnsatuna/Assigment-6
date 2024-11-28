@@ -1,5 +1,5 @@
 import sys
-
+"""First we are going to validate the data"""
 def validate_input(input_data):
     """Validate the input to ensure it contains only integers."""
     try:
